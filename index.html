@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="StudentHub Single Page Application">
+
+    <title>StudentHub | SPA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="header">
+
+    <div class="logo">
+        Student<span>Hub</span>
+    </div>
+
+    <nav id="navbar">
+
+        <a href="/" data-route="home">
+            🏠 Home
+        </a>
+
+        <a href="/dashboard" data-route="dashboard">
+            📊 Dashboard
+        </a>
+
+        <a href="/courses" data-route="courses">
+            📚 Courses
+        </a>
+
+        <a href="/projects" data-route="projects">
+            💻 Projects
+        </a>
+
+        <a href="/profile" data-route="profile">
+            👤 Profile
+        </a>
+
+        <a href="/contact" data-route="contact">
+            📩 Contact
+        </a>
+
+    </nav>
+
+    <div class="header-actions">
+
+        <button id="themeBtn"
+                class="icon-btn"
+                title="Change Theme">
+            🌙
+        </button>
+
+        <button id="notificationBtn"
+                class="icon-btn"
+                title="Notifications">
+            🔔
+            <span id="notificationBadge">3</span>
+        </button>
+
+        <button id="menuBtn"
+                class="menu-btn">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     NOTIFICATION PANEL
+========================= -->
+
+<div id="notificationPanel"
+     class="notification-panel">
+
+    <div class="notification-header">
+
+        <h3>Notifications</h3>
+
+        <button id="closeNotification">
+            ✕
+        </button>
+
+    </div>
+
+    <div class="notification-item">
+        🎓 New Web Development course available.
+    </div>
+
+    <div class="notification-item">
+        🚀 Your project submission is due soon.
+    </div>
+
+    <div class="notification-item">
+        ⭐ You completed a new learning milestone.
+    </div>
+
+</div>
+
+
+<!-- =========================
+     MAIN APP
+========================= -->
+
+<main id="app">
+
+    <!-- JavaScript dynamically loads pages here -->
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h3>StudentHub</h3>
+
+            <p>
+                A modern Single Page Application
+                for student learning and projects.
+            </p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+
+            <a href="/" data-route="home">
+                Home
+            </a>
+
+            <a href="/courses" data-route="courses">
+                Courses
+            </a>
+
+            <a href="/projects" data-route="projects">
+                Projects
+            </a>
+        </div>
+
+        <div>
+            <h3>Technology</h3>
+
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>JavaScript</p>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 StudentHub SPA |
+        Week 5 Internship Project
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
